@@ -14,7 +14,7 @@ UPLOAD_FOLDER = 'uploads'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 # Gemini API Key
-genai.configure(api_key="AIzaSyBZEgzKt0gYQLjKnZeDW8F9Ixe9AMFRKzY")  # 🔑 Replace with your actual key
+genai.configure(api_key="YOUR_API_KEY")  # 🔑 Replace with your actual key
 
 # Home route (optional)
 @app.route("/", methods=["GET"])
